@@ -1,6 +1,6 @@
 {
   "name": "warehouse-multiconnect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Multi-warehouse data connector",
   "license": "MIT",
   "type": "module",
