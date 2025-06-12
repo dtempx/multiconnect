@@ -1,6 +1,4 @@
-
-
-# MultiConnect
+# warehouse-multiconnect
 
 A simple, unified TypeScript library for connecting to multiple data warehouses with a consistent interface. Instead of juggling different SDKs and connection patterns - MultiConnect abstracts away the complexity so you can focus on your data.
 
