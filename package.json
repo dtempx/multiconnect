@@ -1,0 +1,54 @@
+{
+  "name": "multiconnect",
+  "version": "0.1.0",
+  "description": "Multi-warehouse data connector",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/*.js",
+    "lib/*.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+
+  "author": "Dave Templin <dtempx@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtempx/multiconnect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dtempx/multiconnect/issues"
+  },
+  "homepage": "https://github.com/dtempx/multiconnect",
+  "keywords": [
+    "data",
+    "connector",
+    "bigquery",
+    "snowflake",
+    "multiconnect"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^8.0.0",
+    "chalk": "^5.4.1",
+    "snowflake-sdk": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.1",
+    "@types/chai-as-promised": "^8.0.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.15.3",
+    "chai": "^5.2.0",
+    "chai-as-promised": "^8.0.1",
+    "mocha": "^11.1.0",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+*.js
+*.js.map
+*.log
+*.out
+*.tmp
+.env
+.DS_Store
+Thumbs.db
+tmp
